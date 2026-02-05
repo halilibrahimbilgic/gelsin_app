@@ -1413,7 +1413,7 @@ class _QtyBtn extends StatelessWidget {
 }
 
 class _PromoCodeInput extends StatelessWidget {
-  const _PromoCodeInput({super.key});
+  const _PromoCodeInput();
 
   @override
   Widget build(BuildContext context) {
@@ -2047,13 +2047,13 @@ class SettingsScreen extends StatelessWidget {
             value: true,
             onChanged: (v){},
             title: const Text("Bildirimler"),
-            activeColor: const Color(0xFF0F766E),
+            activeThumbColor: const Color(0xFF0F766E),
           ),
           SwitchListTile(
             value: false,
             onChanged: (v){},
             title: const Text("Karanlık Mod"),
-            activeColor: const Color(0xFF0F766E),
+            activeThumbColor: const Color(0xFF0F766E),
           ),
           const ListTile(title: Text("Dil"), subtitle: Text("Türkçe"), trailing: Icon(Icons.arrow_forward_ios, size: 16)),
           const ListTile(title: Text("Sürüm"), subtitle: Text("1.0.0"), trailing: Icon(Icons.info_outline)),
